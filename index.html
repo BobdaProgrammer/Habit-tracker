@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="Currency-container">
+            <span class="money" id="money">₿ 0</span>
+        </div>
+        <div class="newCon">
+            <button class="new" id="new" onclick="show();">+</button>
+        </div>
+        <div class="newTask" id="newTaskform">
+            <select id="dropdown">
+                <option value="option1">Task</option>
+                <option value="option2">Shop item</option>
+            </select>
+                        
+            <span class="newtasktitle">Title</span>
+            <input type="text" class="newTasktitle" id="newTitle" placeholder="Title" required>
+            <span class="newtasktitle">Price</span>
+            <input type="text" class="newTasktitle" id="newprice" placeholder="price" required>
+            <span class="newtask">Task</span>
+            <input type="text" class="newtasktext" id="newTask" placeholder="Task" required>
+            <button class="create" id="create" onsubmit="doit();" onclick="doit();">Create</button>
+        </div>
+        <div class="task-containers" id="tasks">
+        </div>
+        <div class="shop" id="shop">
+            <span class="Shop">Shop</span>
+            </div>
+        </div>
+        </div>
+
+        
+        <canvas id="canvas"></canvas>
+    </body>
+    <script src="main.js"></script>
+    
+</html>
