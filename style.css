@@ -178,3 +178,6 @@
     text-align: center; /* Centered text */
     float: right;
 }
+body{
+    background-color: #f1f1f1;
+}
